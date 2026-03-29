@@ -2,3 +2,7 @@ __pycache__/
 *.pyc
 .env
 .venv/
+# Day12 cache
+day12/.cache/
+# Qdrant storage
+day12/qdrant_storage/
