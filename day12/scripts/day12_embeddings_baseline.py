@@ -4,7 +4,7 @@ import hashlib
 import json
 import os
 from pathlib import Path
-from typing import Any, List, Dict
+from typing import Any, Dict, List
 
 from qdrant_client import QdrantClient, models
 from sentence_transformers import SentenceTransformer
@@ -99,9 +99,7 @@ def upsert_documents(
 ) -> None:
     points: List[models.PointStruct] = []
 
-    for idx, (doc, vector) in enumerate(
-        zip(documents, vectors, strict=False), start=1
-    ):
+    for idx, (doc, vector) in enumerate(zip(documents, vectors, strict=False), start=1):
         points.append(
             models.PointStruct(
                 id=idx,
