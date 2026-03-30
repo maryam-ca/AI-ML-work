@@ -1,0 +1,23 @@
+[
+  {
+    "doc_id": "guide-001",
+    "title": "FastAPI Basics",
+    "language": "en",
+    "source": "manual",
+    "text": "FastAPI is a Python framework used to build APIs quickly. It provides automatic OpenAPI docs, validation through Pydantic, and a developer-friendly routing model."
+  },
+  {
+    "doc_id": "guide-002",
+    "title": "Docker Compose Overview",
+    "language": "en",
+    "source": "manual",
+    "text": "Docker Compose helps run multiple services together like API, database and vector database."
+  },
+  {
+    "doc_id": "guide-003",
+    "title": "Qdrant and Retrieval",
+    "language": "en",
+    "source": "manual",
+    "text": "Qdrant stores embeddings as vectors and allows similarity search over them with metadata."
+  }
+]
