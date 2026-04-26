@@ -6,3 +6,4 @@ __pycache__/
 day12/.cache/
 # Qdrant storage
 day12/qdrant_storage/
+venv/
